@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inknut Antiqua, serif;
+  background-color: rgb(239, 239, 239);
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  font-size: x-large;
+}
+
+.espa {
+  margin-right: 15px;
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
+  color: black;
+  flex-grow: 1;
+}
+
+#btn-enviar {
+  background-color: hsl(263, 50%, 34%);
+  padding: 0 60px;
+  color: hsl(0, 0%, 94%);
+}
+
+.logo {
+  display: flex;
+}
+
+.trybewarts-header-logo {
+  order: -1;
+  width: 65px;
+  margin-left: 15px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+main {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-top: 150px;
+}
+
+.lado-lado {
+  display: flex;
+}
+
+hr {
+  margin: 19px 0;
+  width: 100%;
+}
+
+footer h1 {
+  font-size: 20px;
+}
+
+#evaluation-form h1 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.input-fo {
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+#input-form {
+  width: 100%;
+}
+
+#house {
+  border-radius: 8px;
+  padding: 13px;
+  background-color: white;
+  border: none;
+  padding-right: 100px;
+}
+
+#casa {
+  display: flex;
+  align-items: center;
+}
+
+#input-email {
+  border: none;
+  border-radius: 8px;
+  padding: 13px;
+}
+
+#secao-form {
+  display: flex;
+  width: 100%;
+}
+
+#action-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 80px;
+}
+
+#action-2 {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.org {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+#secao-radio {
+  margin-bottom: 40px;
+  display: flex;
+  width: 100%;
+}
+
+#secao-radio div {
+  margin: 0 5px;
+}
+
+#secao-area {
+  width: 100%;
+}
+
+#textarea {
+  width: 100%;
+}
+
+#test {
+  display: flex;
+  justify-content: center;
+}
+
+#secao-concord {
+  width: 100%;
+  margin: 20px 0;
+}
+
+#submit-btn {
+  background-color: hsl(263, 50%, 34%);
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 60px;
+  color: hsl(0, 0%, 94%);
+}
+
+#secao-btn {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+footer {
+  color: white;
+  background-color: rgb(57, 62, 70);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
